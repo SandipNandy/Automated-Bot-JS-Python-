@@ -37,3 +37,6 @@ for doc in docs:
             print(f"Renamed file {doc} to {new_name}")
 
 print(f"Renamed {renamed} of {len(docs)} files.")
+
+
+# Batch renamer is working properly.
