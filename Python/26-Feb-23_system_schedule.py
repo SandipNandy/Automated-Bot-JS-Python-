@@ -26,3 +26,5 @@ with open("summary.log", "a") as summary:
     # add a new line
     summary.write("\n")
     print(f"Wrote {len(dir_content)} entries for {current_timestamp} to {current_working_dir}/summary.log.") 
+    
+    # System schedule is working properly.
