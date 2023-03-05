@@ -81,3 +81,6 @@ for index, excel_file in enumerate(excel_tl_files):
 ## save the workbook
 summary_wb.save(summary_wb_name)
 print(f"Processed {processed} of {len(excel_tl_files)} excel files.")
+
+
+# Excel extractor is working properly.
