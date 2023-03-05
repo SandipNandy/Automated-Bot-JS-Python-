@@ -61,3 +61,5 @@ for doc in docs:
             print(f"Renamed file {doc} to {new_doc_path}")
 
 print(f"Renamed {renamed} of {len(docs)} files.")
+
+# Batch renamer CLI is working fine.
