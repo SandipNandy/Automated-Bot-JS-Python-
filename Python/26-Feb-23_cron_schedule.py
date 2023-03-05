@@ -60,3 +60,6 @@ while True:
     schedule.run_pending()
     ## sleep 24h
     time.sleep(60 * 60 * 24)
+    
+    
+    # Schedular bot is working fine.
