@@ -4,7 +4,6 @@
  *  Address :- Bangalore, Karnataka
  **/
 
-// Batch Renamer Bot
 
 
 // npm install argparse
