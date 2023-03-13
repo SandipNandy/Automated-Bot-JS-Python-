@@ -4,7 +4,6 @@
  * Address :- Bangalore, Karnataka
  **/
 
-// System Scheduler Bot
 
 const fs = require('fs');
 
@@ -19,4 +18,3 @@ fs.appendFileSync(filename, '\n');
 
 console.log(`Wrote ${files.length} entries for ${now} to summary.log`);
 
-// This project is System schedular.
