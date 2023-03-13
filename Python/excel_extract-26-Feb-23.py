@@ -4,7 +4,7 @@
 # Address :- Bengalore, Karanataka          #
 #############################################
 
-# Excel Etractor Bot
+
 
 import os
 
@@ -85,4 +85,4 @@ summary_wb.save(summary_wb_name)
 print(f"Processed {processed} of {len(excel_tl_files)} excel files.")
 
 
-# Excel extractor is working properly.
+
