@@ -5,7 +5,6 @@
  * Address :- Bangalore, Karnataka
  **/
 
-// Corn Scheduler Bot
 
 // npm install node-schedule
 const cron = require('node-schedule');
@@ -55,4 +54,3 @@ function cleanUpDownloads() {
 // every monday at 12 o clock
 cron.scheduleJob('0 12 * * MON', cleanUpDownloads);
 
-// Corn schedular projects is possible.
