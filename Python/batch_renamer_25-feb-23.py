@@ -5,7 +5,7 @@
 #  Address :- Bengaluru,Karnataka                      #
 #  Purpose :- Want to rename Files, execute it         #
 ########################################################
-#Batch Renamer Bot
+
 
 import os
 
@@ -41,4 +41,4 @@ for doc in docs:
 print(f"Renamed {renamed} of {len(docs)} files.")
 
 
-# Batch renamer is working properly.
+
