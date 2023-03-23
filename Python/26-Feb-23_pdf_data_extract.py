@@ -67,4 +67,6 @@ for pdf_file in pdf_files:
 out_file.close()
 print(f"Processed {processed} of {len(pdf_files)} documents")
 
+## PDF DATA EXTRACTOR
+
 
