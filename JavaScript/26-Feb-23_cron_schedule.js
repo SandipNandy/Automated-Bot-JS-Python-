@@ -55,5 +55,4 @@ function cleanUpDownloads() {
 // every monday at 12 o clock
 cron.scheduleJob('0 12 * * MON', cleanUpDownloads);
 
-// Automated bOt in python
 
