@@ -36,5 +36,3 @@ for (const doc of files) {
 }
 
 console.log(`renamed ${renamed} of ${files.length} files.`);
-
-//Batch Renamer
