@@ -1,11 +1,9 @@
-
 /**
  * Author :- Sandip Nandi
  * Creation Date :- 26-Feb-23
  * Address :- Bangalore, Karnataka
  * Cron Schedule
  **/
-
 
 // npm install node-schedule
 const cron = require('node-schedule');
