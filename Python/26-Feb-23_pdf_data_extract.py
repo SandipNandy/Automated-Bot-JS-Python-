@@ -68,3 +68,4 @@ out_file.close()
 print(f"Processed {processed} of {len(pdf_files)} documents")
 
 
+
