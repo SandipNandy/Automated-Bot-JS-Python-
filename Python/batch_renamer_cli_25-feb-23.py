@@ -4,8 +4,6 @@
 # Adress :- Bengaluru, Karnataka   #
 # Batch Renamer Cli                #
 ####################################
-
-
 import os
 import argparse
 
