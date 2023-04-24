@@ -1,4 +1,3 @@
-
 ########################################################
 #  Author :- Sandip Nandi                              #
 #  Creation Date :- 25-Feb-23                          #
@@ -6,7 +5,6 @@
 #  Purpose :- Want to rename Files, execute it         #
 #  Batch Renamer                                       #
 ########################################################
-
 
 import os
 
