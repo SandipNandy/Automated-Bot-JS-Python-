@@ -4,9 +4,6 @@
 # Address :- Bengalore, Karanataka          #
 # Excel Extract                             #
 #############################################
-
-
-
 import os
 
 from openpyxl import load_workbook, Workbook
