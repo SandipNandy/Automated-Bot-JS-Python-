@@ -3,7 +3,6 @@
 ##Creation Date :- 26- feb-23               #
 ##Address :- Bengalore, Karanataka          #
 ##system scheduler                          #
-##                                          #
 #############################################
 
 
