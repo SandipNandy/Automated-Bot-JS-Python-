@@ -4,7 +4,6 @@
 #  Address :- Bengaluru,Karnataka                      #
 #  Purpose :- Want to rename Files, execute it         #
 #  Batch Renamer                                       #
-#                                                      #
 ########################################################
 
 import os
