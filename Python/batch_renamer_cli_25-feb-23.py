@@ -3,7 +3,6 @@
 # Date of Creation :- 25-Feb-23    #
 # Adress :- Bengaluru, Karnataka   #
 # Batch Renamer Cli                #
-#                                  #
 ####################################
 import os
 import argparse
