@@ -3,11 +3,7 @@
  * Creation Date - 25-Feb-23 
  *  Address :- Bangalore, Karnataka
  *  Batch Renamer Cli
- 
  **/
-
-
-
 // npm install argparse
 const fs = require('fs');
 const path = require('path');
