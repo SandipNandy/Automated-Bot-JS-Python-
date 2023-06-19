@@ -11,6 +11,7 @@ searchFile = "document"
 replaceFile = "file"
 type_filter = ".py"
 
+
 ## get all files from current directory
 dir_contents = os.listdir('.')
 docs = [doc for doc in dir_contents if os.path.isfile(doc)]
