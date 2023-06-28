@@ -5,12 +5,13 @@
 #  Purpose :- Want to rename Files, execute it         #
 #  Batch Renamer                                       #
 ########################################################
+
+
 import os
 ## to be replaced string and file extension filter
 searchFile = "document"
 replaceFile = "file"
 type_filter = ".py"
-
 
 ## get all files from current directory
 dir_contents = os.listdir('.')
