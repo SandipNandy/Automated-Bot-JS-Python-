@@ -4,8 +4,6 @@
  *  Address :- Bangalore, Karnataka
  *  Batch Renamer Cli
  **/
-
-
 // npm install argparse
 const fs = require('fs');
 const path = require('path');
