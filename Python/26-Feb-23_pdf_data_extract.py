@@ -5,9 +5,6 @@
 ##PDF DATA EXTRACTOR                        #
 #############################################
 
-
-
-
 import os
 import re
 import PyPDF2
