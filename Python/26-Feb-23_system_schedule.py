@@ -5,10 +5,6 @@
 ##system scheduler                          #
 #############################################
 
-
-
-
-
 import os
 import datetime
 # get the content of the current directory
