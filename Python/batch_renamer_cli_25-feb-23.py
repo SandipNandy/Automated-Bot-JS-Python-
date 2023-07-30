@@ -5,10 +5,8 @@
 # Batch Renamer Cli                #
 ####################################
 
-
-
-
 import os
+
 import argparse
 parser = argparse.ArgumentParser(description="Batch rename files in directory")
 
