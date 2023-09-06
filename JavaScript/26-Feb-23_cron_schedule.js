@@ -23,6 +23,7 @@ function cleanUpDownloads() {
   
   // create old files folder
   if (!fs.existsSync(oldFilesFolderPath)) {
+    
     fs.mkdirSync(oldFilesFolderPath);
     console.log('Created old files folder');
   }
