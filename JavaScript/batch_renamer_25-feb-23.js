@@ -26,6 +26,7 @@ for (const doc of files) {
   // skip not matching file types
   
   if (file.ext != type_filter) continue;
+  
   // skip not matching file names
   if (!file.name.includes(search_File)) continue;
 
