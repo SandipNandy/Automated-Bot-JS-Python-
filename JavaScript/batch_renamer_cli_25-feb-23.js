@@ -19,6 +19,7 @@ parser.addArgument('--path', {
   type: 'string',
   
   defaultValue: '.',
+  
   help: 'Directory path that contains the to be renamed files',
 });
 
