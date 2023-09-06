@@ -31,6 +31,7 @@ with open("summary.log", "a") as summary:
         summary.write(f"\t{entity}\n")
 
     # add a new line
+    
     summary.write("\n")
     print(f"Wrote {len(dir_content)} entries for {current_timestamp} to {current_working_dir}/summary.log.")
     
