@@ -14,6 +14,7 @@ const replace_File = 'document';
 // filter the current directory for files
 
 const dir = fs.readdirSync('.');
+
 const files = dir.filter(f => fs.statSync(f).isFile());
 
 console.log(`${files.length} of ${dir.length} elements are files.`);
