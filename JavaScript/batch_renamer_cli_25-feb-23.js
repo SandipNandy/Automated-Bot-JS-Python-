@@ -17,6 +17,7 @@ const parser = new ArgumentParser({ description: 'Batch rename files in director
 parser.addArgument('--path', {
   
   type: 'string',
+  
   defaultValue: '.',
   help: 'Directory path that contains the to be renamed files',
 });
