@@ -10,6 +10,7 @@ import re
 import PyPDF2
 
 ##set up the email search pattern
+
 email_pattern = r"([a-zA-Z][a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-z]{2,5})"
 pattern = re.compile(email_pattern)
 
