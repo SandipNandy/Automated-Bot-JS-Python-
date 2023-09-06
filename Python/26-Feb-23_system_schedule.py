@@ -14,6 +14,7 @@ dir_content = os.listdir(".")
 
 # create a new summary.log file to append the content to
 with open("summary.log", "a") as summary:
+    
     current_working_dir = os.getcwd()
     print(f"Writing dir content of dir {current_working_dir} to summary.log")
 
