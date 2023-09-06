@@ -18,6 +18,7 @@ pattern = re.compile(email_pattern)
 ##define the output file
 
 out_file_name = "extract.csv"
+
 out_file = open(out_file_name, "w")
 out_file.write("filename, email\n")
 
