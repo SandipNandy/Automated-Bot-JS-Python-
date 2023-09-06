@@ -20,6 +20,7 @@ pattern = re.compile(email_pattern)
 out_file_name = "extract.csv"
 
 out_file = open(out_file_name, "w")
+
 out_file.write("filename, email\n")
 
 ##get all pdf files from the current directory
