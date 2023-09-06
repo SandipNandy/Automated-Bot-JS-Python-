@@ -11,6 +11,7 @@ import os
 searchFile = "document"
 
 replaceFile = "file"
+
 type_filter = ".py"
 
 ## get all files from current directory
