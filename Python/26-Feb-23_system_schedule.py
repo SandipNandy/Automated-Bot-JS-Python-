@@ -20,6 +20,7 @@ with open("summary.log", "a") as summary:
     print(f"Writing dir content of dir {current_working_dir} to summary.log")
 
     # get the current time stamp and write a header for the current execution
+    
     current_timestamp = datetime.datetime.now()
     summary.write(f"{current_timestamp}\n")
 
