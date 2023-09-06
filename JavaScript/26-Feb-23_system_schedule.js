@@ -8,7 +8,6 @@
 
 const fs = require('fs');
 const dir = fs.readdirSync('.');
-
 const files = dir.filter(f => fs.statSync(f).isFile());
 
 const now = new Date();
