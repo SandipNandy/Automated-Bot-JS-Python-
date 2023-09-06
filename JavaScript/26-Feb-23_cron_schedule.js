@@ -14,6 +14,7 @@ const fs = require('fs');
 const oldFilesFolderName = 'old_files';
 
 const downloadsFolder = path.join(os.homedir(), 'Downloads', 'test');
+
 const oldFilesFolderPath = path.join(downloadsFolder, oldFilesFolderName);
 
 function cleanUpDownloads() {
