@@ -18,6 +18,7 @@ const downloadsFolder = path.join(os.homedir(), 'Downloads', 'test');
 const oldFilesFolderPath = path.join(downloadsFolder, oldFilesFolderName);
 
 function cleanUpDownloads() {
+  
   console.log('Starting Cleanup');
   // create old files folder
   if (!fs.existsSync(oldFilesFolderPath)) {
