@@ -7,6 +7,7 @@
 ########################################################
 
 import os
+
 ## to be replaced string and file extension filter
 searchFile = "document"
 
