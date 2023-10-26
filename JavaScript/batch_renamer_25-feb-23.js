@@ -28,5 +28,4 @@ for (const doc of files) {
   fs.renameSync(doc, doc.replace(search_File, replace_File));
   renamed++;
 }
-
 console.log(`renamed ${renamed} of ${files.length} files.`);
