@@ -10,7 +10,6 @@ const path = require('path');
 const type_filter = '.txt';
 const search_File = 'file';
 const replace_File = 'document';
-
 // filter the current directory for files
 
 const dir = fs.readdirSync('.');
