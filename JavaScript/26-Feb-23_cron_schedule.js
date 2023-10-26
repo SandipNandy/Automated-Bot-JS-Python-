@@ -29,7 +29,6 @@ function cleanUpDownloads() {
     fs.mkdirSync(dateFolder);
     console.log('Created Date Folder.');
   }
-  
   // get all items from downloads folder
   const dir = fs.readdirSync(downloadsFolder);
   let moved = 0;
