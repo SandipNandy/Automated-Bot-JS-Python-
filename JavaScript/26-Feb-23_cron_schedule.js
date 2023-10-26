@@ -39,7 +39,6 @@ function cleanUpDownloads() {
     fs.renameSync(path.join(downloadsFolder, item), path.join(dateFolder, item));
     moved++;
   }
-
   console.log(`Cleaned ${moved} files.`);
 }
 // uncomment for testing
