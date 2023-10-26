@@ -32,7 +32,6 @@ function cleanUpDownloads() {
   
   // get all items from downloads folder
   const dir = fs.readdirSync(downloadsFolder);
-  
   let moved = 0;
   // move items to new folder
   for (const item of dir.filter(f => !f.includes(oldFilesFolderName))) {
