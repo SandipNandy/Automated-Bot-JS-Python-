@@ -42,7 +42,6 @@ function cleanUpDownloads() {
 
   console.log(`Cleaned ${moved} files.`);
 }
-
 // uncomment for testing
 //cleanUpDownloads();
 // every monday at 12 o clock
