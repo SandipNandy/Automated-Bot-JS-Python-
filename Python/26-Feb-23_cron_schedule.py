@@ -25,6 +25,8 @@ def clean_up_downloads():
         print(f"No {old_files_folder_name} folder yet, creating folder")
         os.mkdir(old_files_folder_path)
 
+
+    
     ## create new folder with todays timestamp
     timestamp = time.strftime("%Y_%m_%d")
     datetime_folder_path = os.path.join(old_files_folder_path, timestamp)
