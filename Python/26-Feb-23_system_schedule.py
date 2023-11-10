@@ -22,8 +22,7 @@ with open("summary.log", "a") as summary:
     summary.write(f"{current_timestamp}\n")
 
     # write each entity of the folder content into the summary.log file
-    for entity in dir_content:
-        
+    for entity in dir_content: 
         summary.write(f"\t{entity}\n")
 
     # add a new line
