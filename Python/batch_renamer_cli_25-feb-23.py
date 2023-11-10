@@ -28,6 +28,7 @@ parser.add_argument(
 args = parser.parse_args()
 
 ## to be replaced string and file extension filter
+
 search = args.search
 replace = args.replace
 type_filter = args.filetype
