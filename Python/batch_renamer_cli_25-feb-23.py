@@ -21,6 +21,7 @@ parser.add_argument(
     type=str,
     
     default=None,
+    
     help="Only files with the given type will be renamed (e.g. .txt)"
 )
 parser.add_argument(
