@@ -19,6 +19,7 @@ parser.add_argument(
     "--filetype",
     
     type=str,
+    
     default=None,
     help="Only files with the given type will be renamed (e.g. .txt)"
 )
