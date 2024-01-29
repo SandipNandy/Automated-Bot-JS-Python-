@@ -11,7 +11,6 @@ from pathlib import Path
 import schedule
 old_files_folder_name = "old_files"
 def clean_up_downloads():
-    
     print("Cleaning up Downloads")
     
     ## get all items from the downloads filder
