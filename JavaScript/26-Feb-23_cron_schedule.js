@@ -29,6 +29,7 @@ function cleanUpDownloads() {
   
   // create new folder with todays timestamp
   const dateFolder = path.join(oldFilesFolderPath, timestamp);
+  
   if (!fs.existsSync(dateFolder)) {
     fs.mkdirSync(dateFolder);
     console.log('Created Date Folder.');
