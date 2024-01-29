@@ -16,6 +16,7 @@ const replace_File = 'document';
 const dir = fs.readdirSync('.');
 
 const files = dir.filter(f => fs.statSync(f).isFile());
+
 console.log(`${files.length} of ${dir.length} elements are files.`);
 let renamed = 0;
 for (const doc of files) {
