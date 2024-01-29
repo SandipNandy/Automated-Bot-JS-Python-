@@ -32,6 +32,7 @@ function cleanUpDownloads() {
   
   if (!fs.existsSync(dateFolder)) {
     fs.mkdirSync(dateFolder);
+    
     console.log('Created Date Folder.');
   }
   // get all items from downloads folder
