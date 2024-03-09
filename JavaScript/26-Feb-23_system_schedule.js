@@ -13,6 +13,7 @@ const dir = fs.readdirSync('.');
 const files = dir.filter(f => fs.statSync(f).isFile());
 
 const now = new Date();
+
 const filename = 'summary.log';
 fs.appendFileSync(filename, now + '\n');
 
