@@ -6,6 +6,7 @@
 #############################################
 
 import os
+
 import re
 import PyPDF2
 ##set up the email search pattern
