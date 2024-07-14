@@ -25,6 +25,7 @@ out_file = open(out_file_name, "w")
 out_file.write("filename, email\n")
 
 ##get all pdf files from the current directory
+
 dir_content = os.listdir(".")
 pdf_files = [doc for doc in dir_content if doc.endswith("pdf")]
 processed = 0
