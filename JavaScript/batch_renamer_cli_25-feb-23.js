@@ -9,7 +9,6 @@
 const fs = require('fs');
 
 const path = require('path');
-
 const { ArgumentParser } = require('argparse');
 
 const parser = new ArgumentParser({ description: 'Batch rename files in directory' }); parser.addArgument('search', { type: 'string', help: 'To be replaced text' }); parser.addArgument('replace', { type: 'string', help: 'Text to use for replacement' }); parser.addArgument('--filetype', {
