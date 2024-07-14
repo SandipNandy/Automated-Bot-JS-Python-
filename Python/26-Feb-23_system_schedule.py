@@ -18,6 +18,7 @@ dir_content = os.listdir(".")
 with open("summary.log", "a") as summary:
     
     current_working_dir = os.getcwd()
+    
     print(f"Writing dir content of dir {current_working_dir} to summary.log")
 
     # get the current time stamp and write a header for the current execution
