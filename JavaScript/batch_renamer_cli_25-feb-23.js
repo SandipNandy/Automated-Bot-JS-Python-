@@ -29,6 +29,7 @@ parser.addArgument('--path', {
 });
 
 const args = parser.parseArgs();
+
 console.log(args);
 
 // rename path to dirPath because of naming conflict with the path library
