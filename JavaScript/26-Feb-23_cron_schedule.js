@@ -31,7 +31,6 @@ function cleanUpDownloads() {
   }
   const now = new Date();
   // months start at 0 so add 1
-  
   const timestamp = `${now.getFullYear()}_${now.getMonth() + 1}_${now.getDate()}`;
   
   
