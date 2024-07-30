@@ -6,7 +6,6 @@
 #############################################
 
 import os
-
 import re
 
 import PyPDF2
