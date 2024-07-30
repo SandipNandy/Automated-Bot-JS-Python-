@@ -37,6 +37,7 @@ const { filetype, search, replace, path: dirPath } = args;
 
 // filter the current directory for files
 const dir = fs.readdirSync(dirPath);
+
 const files = dir.filter(f => fs.statSync(f).isFile());
 
 console.log(`${files.length} of ${dir.length} elements are files.`);
