@@ -27,6 +27,7 @@ parser.addArgument('--path', {
   
   help: 'Directory path that contains the to be renamed files',
 });
+
 const args = parser.parseArgs();
 console.log(args);
 
