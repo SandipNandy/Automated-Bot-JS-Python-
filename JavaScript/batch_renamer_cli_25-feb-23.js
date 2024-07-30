@@ -34,6 +34,7 @@ console.log(args);
 
 // rename path to dirPath because of naming conflict with the path library
 const { filetype, search, replace, path: dirPath } = args;
+
 // filter the current directory for files
 const dir = fs.readdirSync(dirPath);
 const files = dir.filter(f => fs.statSync(f).isFile());
