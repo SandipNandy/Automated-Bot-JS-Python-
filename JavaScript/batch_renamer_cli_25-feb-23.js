@@ -7,7 +7,6 @@
 
 // npm install argparse
 const fs = require('fs');
-
 const path = require('path');
 
 const { ArgumentParser } = require('argparse');
