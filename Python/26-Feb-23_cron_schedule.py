@@ -29,6 +29,7 @@ def clean_up_downloads():
     ## create the old files folder if not present
     
     old_files_folder_path = os.path.join(download_folder_path, old_files_folder_name)
+    
     if old_files_folder_name not in download_items:
         print(f"No {old_files_folder_name} folder yet, creating folder")
         os.mkdir(old_files_folder_path)
