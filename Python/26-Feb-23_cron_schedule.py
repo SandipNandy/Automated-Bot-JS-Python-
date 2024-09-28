@@ -23,6 +23,7 @@ def clean_up_downloads():
     download_folder_path = os.path.join(Path.home(), "Downloads", "Downloads")
     
     download_items = os.listdir(download_folder_path)
+    
     moved_items = 0
 
     ## create the old files folder if not present
