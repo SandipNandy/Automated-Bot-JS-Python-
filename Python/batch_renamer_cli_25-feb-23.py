@@ -12,6 +12,7 @@ import argparse
 parser = argparse.ArgumentParser(description="Batch rename files in directory")
 
 parser.add_argument("search", type=str, help="To be replaced text")
+
 parser.add_argument("replace", type=str, help="Text to use for replacement")
 
 parser.add_argument(
