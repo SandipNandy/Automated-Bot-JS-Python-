@@ -9,7 +9,6 @@ import os
 import time
 from pathlib import Path
 import schedule
-
 old_files_folder_name = "old_files"
 
 def clean_up_downloads():
