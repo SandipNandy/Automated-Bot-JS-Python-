@@ -20,7 +20,6 @@ with open("summary.log", "a") as summary:
 
     # get the current time stamp and write a header for the current execution
     current_timestamp = datetime.datetime.now()
-    
     summary.write(f"{current_timestamp}\n")
 
     # write each entity of the folder content into the summary.log file
