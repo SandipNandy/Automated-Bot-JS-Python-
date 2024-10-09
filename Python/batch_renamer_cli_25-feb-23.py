@@ -13,7 +13,6 @@ parser.add_argument("replace", type=str, help="Text to use for replacement")
 
 parser.add_argument(
     "--filetype",
-    
     type=str,
     
     default=None,
