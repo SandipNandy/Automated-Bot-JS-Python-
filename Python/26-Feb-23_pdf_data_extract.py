@@ -15,7 +15,6 @@ email_pattern = r"([a-zA-Z][a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-z]{2,5})"
 pattern = re.compile(email_pattern)
 
 ##define the output file
-
 out_file_name = "extract.csv"
 out_file = open(out_file_name, "w")
 out_file.write("filename, email\n")
